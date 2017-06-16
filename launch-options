@@ -1,0 +1,63 @@
+This is a file containing all of the usefull tips, themes and options I've found or created for ROFI
+
+#Combined window using positioning in .Xresources
+rofi -modi combi,window,"clipboard:greenclip print" -show combi -combi-modi drun,run -font "NovaMono for Powerline 13"
+
+#Top Bar
+rofi -modi combi,window,"clipboard:greenclip print" -show combi -combi-modi drun,run -location 2 -width 100 -font "NovaMono for Powerline 13"
+
+#Top Launcher kinda like KDE
+rofi -modi combi,window,"clipboard:greenclip print" -show combi -combi-modi drun,run,"clipboard:greenclip print" -location 1 -padding 50 -font "NovaMono for Powerline 13"
+
+#Dmenu launch
+dmenu_run -fn 'NovaMono for Powerline:bold:pixelsize=20' | rofi -dmenu
+
+dmenu_run -fn 'NovaMono for Powerline:bold:pixelsize=20'
+
+
+rofi -modi combi,window,"clipboard:greenclip print" -show combi -combi-modi drun,run,"clipboard:greenclip print" -lines 6  -width 700 -font "NovaMono for Powerline 13"
+
+
+Archlabs Default
+! ------------------------------------------------------------------------------
+! ROFI archlabs options
+! ------------------------------------------------------------------------------
+
+rofi.font:              SFNS Display 13
+rofi.location:          0
+rofi.fullscreen:        true
+rofi.padding:           150
+rofi.hide-scrollbar:    true
+rofi.line-margin:       5
+rofi.yoffset:           00
+rofi.xoffset:           0
+!rofi.width:            1920
+rofi.lines:             18
+
+
+My Default
+! ------------------------------------------------------------------------------
+! ROFI  arc-alternative Options
+! ------------------------------------------------------------------------------
+rofi.location:          0
+rofi.fullscreen:       false
+rofi.padding:           50
+rofi.hide-scrollbar:    true
+rofi.line-margin:       5
+rofi.yoffset:           0
+rofi.xoffset:           0
+rofi.width:            700
+rofi.lines:             6
+
+! ------------------------------------------------------------------------------
+! ROFI  archlabs theme
+! ------------------------------------------------------------------------------
+rofi.location:          0
+rofi.fullscreen:       false
+rofi.padding:           50
+rofi.hide-scrollbar:    true
+rofi.line-margin:       5
+rofi.yoffset:           0
+rofi.xoffset:           0
+rofi.width:            700
+rofi.lines:             6

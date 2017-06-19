@@ -39,7 +39,7 @@
 }
 #window box {
     padding: 10px;
-    border:  0px;
+    border:  1px;
     border-radius: 1px;
     background: #ffffff;
 }

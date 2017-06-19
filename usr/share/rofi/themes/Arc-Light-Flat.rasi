@@ -1,6 +1,6 @@
 //! ------------------------------------------------------------------------------
 //! ROFI Color theme
-//! User: NateMaia
+//! User: SmokeKing
 //! Copyright: Dave Davenport
 //! ------------------------------------------------------------------------------
 //! Use extended color scheme
@@ -19,8 +19,8 @@
     lightred:    #e23434;
     //
     // Blue
-    blue:      #3DAEE9;
-    lightblue:     #3DAEE9;
+    blue:     #4084D6;
+    lightblue:     #3FCFFC;
     //
     // Magenta
     magenta:      #deb887;
@@ -31,8 +31,8 @@
     lightcyan:     #b0c4de;
     //
     // White
-    white:      #bbaa99;
-    lightwhite:     #ddccbb;
+    white:      #F5F6F7;
+    lightwhite:     #FFFFFF;
     //
     // Bold, Italic, Underline
     highlight:     bold #ffffff;
@@ -49,7 +49,7 @@
     padding: 4px;
 }
 #window mainbox inputbar box {
-    border: 0px 0px 2px 0px;
+    border: 0px 0px 1px 0px;
 }
 #window mainbox box {
     spacing: 5px;

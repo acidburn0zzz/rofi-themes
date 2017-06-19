@@ -7,7 +7,7 @@
 * {
     spacing: 5px;
     padding: 2px;
-    foreground:  #636363;
+    foreground:  #F5F6F7;
     background:  rgba(0,0,0,0);
     dark: #1c1c1c;
     // Black
@@ -38,14 +38,14 @@
     highlight:     bold #ffffff;
 }
 #window box {
-    padding: 10px;
+    padding: 20px;
     border:  0px;
     border-radius: 1px;
-    background: #ffffffed;
+    background: #404552ed;
 }
 #window mainbox inputbar {
-    background: #ffffff00;
-    text: @black;
+    background: #40455200;
+    text: @white;
     padding: 4px;
 }
 #window mainbox inputbar box {

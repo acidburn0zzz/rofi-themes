@@ -88,9 +88,9 @@
 }
 #window mainbox listview element selected active {
     background: @blue;
-    foreground: @backg;
+    foreground: @white;
 }
 #window mainbox listview element selected urgent {
     background: @blue;
-    foreground: @backg;
+    foreground: @white;
 }

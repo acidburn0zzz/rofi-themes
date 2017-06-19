@@ -15,12 +15,12 @@
     lightblack:  #554444;
     //
     // Red
-    red:         #AB2B36cc;
-    lightred:    #e23434cc;
+    red:         #AB2B36;
+    lightred:    #e23434;
     //
     // Blue
-    blue:     #3FCFFCcc;
-    lightblue:     #3FCFFCcc;
+    blue:     #3FCFFC;
+    lightblue:     #3FCFFC;
     //
     // Magenta
     magenta:      #deb887;
@@ -35,7 +35,7 @@
     lightwhite:     #FFFFFF;
     //
     // Backg
-    backg:      #31363B00;
+    backg:      #EFF0F1;
     //
     // Bold, Italic, Underline
     highlight:     bold #ffffff;
@@ -44,11 +44,11 @@
     padding: 20px;
     border:  1px;
     border-radius: 2px;
-    background: #31363Bcc;
+    background: #EFF0F1;
 }
 #window mainbox inputbar {
-    background: #31363B00;
-    text: #F5F6F7;
+    background: #EFF0F1;
+    text: #636363;
     padding: 4px;
 }
 #window mainbox inputbar box {
@@ -64,27 +64,27 @@
 }
 #window mainbox listview element normal  {
     background: @backg;
-    foreground: @white;
+    foreground: @black;
 }
 #window mainbox listview element normal active {
      background: @backg;
-     foreground: @white;
+     foreground: @black;
 }
 #window mainbox listview element normal urgent {
     background: @backg;
-    foreground: @white;
+    foreground: @black;
 }
 #window mainbox listview element alternate normal {
-    foreground: @white;
+    foreground: @black;
     background: @backg;
 }
 #window mainbox listview element alternate active {
     background: @backg;
-    foreground: @white;
+    foreground: @black;
 }
 #window mainbox listview element alternate urgent {
     background: @backg;
-    foreground: @white;
+    foreground: @black;
 }
 #window mainbox listview element selected active {
     background: @blue;
@@ -94,4 +94,3 @@
     background: @blue;
     foreground: @white;
 }
-

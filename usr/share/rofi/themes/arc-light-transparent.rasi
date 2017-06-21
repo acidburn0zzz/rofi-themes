@@ -12,33 +12,16 @@
     dark: #1c1c1c;
     // Black
     black:       #3d352a;
-    lightblack:  #554444;
-    //
-    // Red
-    red:         #AB2B36cc;
-    lightred:    #e23434cc;
     //
     // Blue
     blue:      #4084D6cc;
-    lightblue:     #3FCFFCcc;
-    //
-    // Magenta
-    magenta:      #deb887;
-    lightmagenta:     #996600;
-    //
-    // Cyan
-    cyan:      #b0c4de;
-    lightcyan:     #b0c4de;
     //
     // White
     white:      #F5F6F7;
-    lightwhite:     #FFFFFF;
     //
-    // Bold, Italic, Underline
-    highlight:     bold #ffffff;
 }
 #window box {
-    padding: 10px;
+    padding: 20px;
     border:  2px;
     border-radius: 1px;
     background: #ffffffed;
@@ -55,6 +38,14 @@
     spacing: 5px; 
 }
 #window mainbox listview element selected  normal {
+    background: @blue;
+    foreground: @white;
+}
+#window mainbox listview element selected active {
+    background: @blue;
+    foreground: @white;
+}
+#window mainbox listview element selected urgent {
     background: @blue;
     foreground: @white;
 }
@@ -82,12 +73,3 @@
     background: @backg;
     foreground: @black;
 }
-#window mainbox listview element selected active {
-    background: @blue;
-    foreground: @white;
-}
-#window mainbox listview element selected urgent {
-    background: @blue;
-    foreground: @white;
-}
-

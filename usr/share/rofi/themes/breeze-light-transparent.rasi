@@ -12,38 +12,18 @@
     dark: #1c1c1c;
     // Black
     black:       #636363;
-    lightblack:  #554444;
-    //
-    // Red
-    red:         #AB2B36cc;
-    lightred:    #e23434cc;
     //
     // Blue
     blue:     #3FCFFCcc;
-    lightblue:     #3FCFFCcc;
-    //
-    // Magenta
-    magenta:      #deb887;
-    lightmagenta:     #996600;
-    //
-    // Cyan
-    cyan:      #b0c4de;
-    lightcyan:     #b0c4de;
     //
     // White
     white:      #F5F6F7;
-    lightwhite:     #FFFFFF;
     //
-    // Backg
-    backg:      #31363B00;
-    //
-    // Bold, Italic, Underline
-    highlight:     bold #ffffff;
 }
 #window box {
     padding: 20px;
     border:  1px;
-    border-radius: 2px;
+    border-radius: 1px;
     background: #EFF0F1ed;
 }
 #window mainbox inputbar {
@@ -60,9 +40,17 @@
 }
 #window mainbox listview element selected  normal {
     background: @blue;
-    foreground: @white;
+    foreground: @black;
 }
-#window mainbox listview element normal  {
+#window mainbox listview element selected active {
+    background: @blue;
+    foreground: @black;
+}
+#window mainbox listview element selected urgent {
+    background: @blue;
+    foreground: @black;
+}
+#window mainbox listview element normal {
     background: @backg;
     foreground: @black;
 }
@@ -85,12 +73,4 @@
 #window mainbox listview element alternate urgent {
     background: @backg;
     foreground: @black;
-}
-#window mainbox listview element selected active {
-    background: @blue;
-    foreground: @white;
-}
-#window mainbox listview element selected urgent {
-    background: @blue;
-    foreground: @white;
 }

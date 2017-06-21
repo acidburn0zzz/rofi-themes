@@ -12,38 +12,18 @@
     dark: #1c1c1c;
     // Black
     black:       #3d352a;
-    lightblack:  #554444;
-    //
-    // Red
-    red:         #AB2B36;
-    lightred:    #e23434;
     //
     // Blue
     blue:     #3FCFFC;
-    lightblue:     #3FCFFC;
-    //
-    // Magenta
-    magenta:      #deb887;
-    lightmagenta:     #996600;
-    //
-    // Cyan
-    cyan:      #b0c4de;
-    lightcyan:     #b0c4de;
     //
     // White
     white:      #F5F6F7;
-    lightwhite:     #FFFFFF;
     //
-    // Backg
-    backg:      #EFF0F1;
-    //
-    // Bold, Italic, Underline
-    highlight:     bold #ffffff;
 }
 #window box {
     padding: 20px;
     border:  1px;
-    border-radius: 2px;
+    border-radius: 1px;
     background: #EFF0F1;
 }
 #window mainbox inputbar {
@@ -60,7 +40,15 @@
 }
 #window mainbox listview element selected  normal {
     background: @blue;
-    foreground: @white;
+    foreground: @black;
+}
+#window mainbox listview element selected active {
+    background: @blue;
+    foreground: @black;
+}
+#window mainbox listview element selected urgent {
+    background: @blue;
+    foreground: @black;
 }
 #window mainbox listview element normal  {
     background: @backg;
@@ -85,12 +73,4 @@
 #window mainbox listview element alternate urgent {
     background: @backg;
     foreground: @black;
-}
-#window mainbox listview element selected active {
-    background: @blue;
-    foreground: @white;
-}
-#window mainbox listview element selected urgent {
-    background: @blue;
-    foreground: @white;
 }

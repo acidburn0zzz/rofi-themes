@@ -17,27 +17,41 @@ rofi -modi combi,window -show combi -combi-modi drun,run -location 2 -width 100 
 #Top Launcher kinda like KDE
 rofi -modi combi,window -show combi -combi-modi drun,run -location 1
 
-#########################################################################################
-## This will set a combined window with clipboard, run, and drun.. Use options below for location and size/number of items to list
-rofi -modi combi,window,"clipboard:greenclip print" -show combi -combi-modi drun,run,"clipboard:greenclip print"
-#########################################################################################
+# Top right similar to gmrun
+rofi -modi run,drun -show drun -location 1 -width 28 -lines 1 -xoffset -672 -yoffset 49 -font "Ubuntu 14"
+
+####################################################################################################################################
+##      This will set a combined window with clipboard, run, and drun..
+##
+## rofi -modi combi,window,"clipboard:greenclip print" -show combi -combi-modi drun,run,"clipboard:greenclip print"
+##
+####################################################################################################################################
 
 ###########################################################
-##                                                  LAUNCH OPTIONS                                                                        ##
+##                  LAUNCH OPTIONS                       ##
 ###########################################################
 
--width 600    ###sets window width if less than 100 will be % if more than 100 will be px
+-width 600    ###sets window width (if less than 100 will be % if more than 100 will be px)
+
 -location 1    ### sets location values 0-8  going around the screen 0=center  1=top center
--lines 6           ### sets number of items to display or list
--font "Noto Sans 13"  ### sets the font
--show  run       ### sets the visible mode when starting
--modi  combi,run,drun,window   ###sets available modes (switch between with Shift+arrow left/right or lump together with combi)
--combi-modi run,drun,window    ### enables combining different modes into one combi mode
--fullscreen    ###sets fullscreen
--yoffset 24   ### sets offset from a given edge "y" is vertical
--xoffset 24   ### sets offset from a given edge "x" is horizontal
 
-###########################################################
-##   can be used to integrate respective clipboards into either -show or -comb-modi  ##
-###                                          "clipboard:greenclip print"                                                           ###
-###########################################################
+-lines 6           ### sets number of items to display (will determine the height)
+
+-font "Noto Sans 13"  ### sets the font
+
+-show  run       ### sets the visible mode when starting (any mode can be used here)
+
+-modi  combi,run,drun,window   ###sets available modes (switch between with Shift+arrow left/right or lump together with combi)
+
+-combi-modi run,drun,window    ### enables combining different modes into one combi mode
+
+-fullscreen    ###sets fullscreen
+
+-yoffset 24   ### sets offset from a given edge, "y" is vertical (use negative values to change which edge)
+
+-xoffset 24   ### sets offset from a given edge, "x" is horizontal (use negative values to change which edge)
+
+#######################################################################
+##  Integrate respective clipboards into either -show or -comb-modi  ##
+##                   "clipboard:greenclip print"                     ##
+#######################################################################

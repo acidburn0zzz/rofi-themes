@@ -1,6 +1,12 @@
 ### Some launch options to get you started using rofi
 ### These can be tested in a terminal to find which suits you
 
+## My Current Favorite launch command (need greenclip and libqalculate installed)
+
+rofi -terminal termite -combi-modi "window,drun,run" -show combi -modi combi,"calc:qalc +u8 -nocurrencies","clipboard:greenclip print" -columns 2 -lines 9 -location 1 -yoffset -30 -width 100 -font "ShureTechMono Nerd Font 13" -threads 0
+
+
+
 
 # Simple run command
 rofi -modi run -show run

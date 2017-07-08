@@ -5,8 +5,8 @@
 //! ------------------------------------------------------------------------------
 //! Use extended color scheme
 * {
-    spacing: 5px;
-    padding: 2px;
+    spacing: 2px;
+    padding: 1px;
     foreground:  #F3F7F7;
     background:  rgba(0,0,0,0);
     dark: #1c1c1c;
@@ -19,35 +19,33 @@
     // White
     white:      #F3F7F7;
     //
+    // Select
+    highlight:      #3B94F1;
+    //
 }
 #window box {
-    padding: 20px;
-    border:  2px;
-    border-radius: 1px;
+    padding: 50px;
     background: #1C151Ced;
 }
 #window mainbox inputbar {
     background: #1C151C00;
     text: @white;
-    padding: 4px;
-}
-#window mainbox inputbar box {
-    border: 0px 0px 1px 0px;
+    spacing: 20px;
 }
 #window mainbox box {
-    spacing: 5px;
+    spacing: 20px;
 }
 #window mainbox listview element selected  normal {
-    background: @blue;
-    foreground: @black;
+    background: @backg;
+    foreground: @highlight;
 }
 #window mainbox listview element selected active {
-    background: @blue;
-    foreground: @black;
+    background: @backg;
+    foreground: @highlight;
 }
 #window mainbox listview element selected urgent {
-    background: @blue;
-    foreground: @black;
+    background: @backg;
+    foreground: @highlight;
 }
 #window mainbox listview element normal  {
     background: @backg;

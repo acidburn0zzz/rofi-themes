@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#BROWSER=google-chrome-stable
+
+surfraw -browser=$BROWSER "$(cat ~/.config/surfraw/bookmarks | sed '/^$/d' | sed '/^#/d' | sed '/^\//d' | sort -n | rofi -location 1 -width 100 -yoffset -30 -lines 9 -columns 2 -font "ShureTechMono Nerd Font 13" -dmenu -mesg ">>> Edit to add new bookmarks at ~/.config/surfraw/bookmarks" -i -p "rofi-surfraw-bookmarks: ")"

@@ -5,7 +5,8 @@
 
 rofi -terminal termite -combi-modi "window,drun,run" -show combi -modi combi,"calc:qalc +u8 -nocurrencies","clipboard:greenclip print" -columns 2 -lines 9 -location 1 -yoffset -30 -width 100 -font "ShureTechMono Nerd Font 13" -threads 0
 
-
+with the script in the bin folder "rofi-web-search"
+you can call rofi-web-seach with a keybinding to get a dropdown web search
 
 
 # Simple run command

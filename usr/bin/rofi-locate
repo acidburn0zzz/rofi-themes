@@ -1,0 +1,3 @@
+#!/bin/bash
+
+xdg-open "$(locate home media | rofi -threads 0 -columns 2 -lines 9 -location 1 -yoffset -30 -width 100 -font "ShureTechMono Nerd Font 13" -dmenu -i -p "locate:")"

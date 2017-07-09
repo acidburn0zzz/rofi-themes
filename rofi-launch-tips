@@ -1,12 +1,20 @@
 ### Some launch options to get you started using rofi
 ### These can be tested in a terminal to find which suits you
 
-## My Current Favorite launch command (need greenclip and libqalculate installed)
+
+Packages I suggest having
+
+- greenclip (AUR) >> clipboard
+- libqalculate    >> calculator
+- surfraw         >> web search
+
+
+## My Current Favorite one liner (need greenclip and libqalculate installed)
 
 rofi -terminal termite -combi-modi "window,drun,run" -show combi -modi combi,"calc:qalc +u8 -nocurrencies","clipboard:greenclip print" -columns 2 -lines 9 -location 1 -yoffset -30 -width 100 -font "ShureTechMono Nerd Font 13" -threads 0
 
-with the script in the bin folder "rofi-web-search"
-you can call rofi-web-seach with a keybinding to get a dropdown web search
+with the scripts in the bin folder copied to /usr/bin/
+you can call rofi-launcher with a keybinding to get a dropdown list of available modes
 
 
 # Simple run command

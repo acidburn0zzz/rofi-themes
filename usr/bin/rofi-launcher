@@ -51,7 +51,7 @@ function print_menu()
 function start()
 {
     # print_menu | rofi -dmenu -p "?=>"
-    print_menu | sort | rofi -lines 9 -location 1 -yoffset -30 -width 100 -font "ShureTechMono Nerd Font 13" -dmenu -mesg ">>> Pick your rofi launcher " -i -p "rofi-launchers: "
+    print_menu | sort | rofi -lines 9 -location 1 -yoffset -30 -width 100 -font "Noto Sans 13" -dmenu -mesg ">>> Pick your rofi launcher " -i -p "rofi-launchers: "
 
 }
 

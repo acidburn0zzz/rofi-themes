@@ -1,7 +1,6 @@
 # rofi-themes
-Themes I've made for the Rofi Launcher
+Themes & Scripts for the Rofi Launcher
 
-These should be placed in either /usr/share/rofi/themes/ or /usr/local/share/rofi/themes/
 
 # Installation
     - cd into the folder containing the .rasi theme files

@@ -5,7 +5,7 @@
 //! ------------------------------------------------------------------------------
 //! "Color scheme for normal row" Set from: File
 * {
-    spacing:    2;
+    spacing:    1;
 }
 #window {
     border:     0;
@@ -15,8 +15,8 @@
     border-radius: 4px;
 }
 #window.mainbox {
-    border:  0px 0px 0px ;
-    padding: 6;
+    border:  0;
+    padding: 10;
 }
 #window.mainbox.message.box {
     border: 0px 0px 0px ;
@@ -27,8 +27,9 @@
     background: #00000000;
 }
 #window.mainbox.listview {
+    fixed-height: 1;
     border: 0px 0px 0px ;
-    padding: 20px 150px 2px ;                                                
+    padding: 4px 150px 4px ;                                                
 }
 #window.mainbox.listview.element {
     border: 0px 0px 1px ;
@@ -60,19 +61,19 @@
 }
 #window.mainbox.listview.element.alternate.normal {
     foreground: #484852FF;
-    background: #679DB8ED;
+    background: #A3574AED;
 }
 #window.mainbox.listview.element.alternate.urgent {
     foreground: #484852FF;
-    background: #679DB8ED;
+    background: #A3574AED;
 }
 #window.mainbox.listview.element.alternate.active {
     foreground: #484852FF;
-    background: #679DB8ED;
+    background: #A3574AED;
 }
 #window.mainbox.sidebar.box {
     border: 0px 0px 0px ;
-    padding: 20;
+    padding: 0;
 }
 #window.mainbox.sidebar.button normal{
     border: 0px 0px 1px ;
@@ -85,19 +86,14 @@
     background: #1793D1ED;
 }
 #window.mainbox.inputbar {
-    padding: 0px 0px 1px ;  
-    border: 0px 0px 1px ;
-    foreground: #484852FF;
-    background: #72CCDFED;
-    border-radius: 0;
+    spacing: 0;
 }
 #window.mainbox.inputbar.box {
-    padding: 10px 250px 10px ;  
-    border: 0px 0px 1px ;
+    padding: 0px 110px 0px ;  
+    border: 1px 0px 1px ;
     foreground: #484852FF;
     background: #72CCDFED;
     spacing: 0;
-    border-radius: 4;
 }
 #window.mainbox.inputbar.normal {
     foreground: #484852FF;

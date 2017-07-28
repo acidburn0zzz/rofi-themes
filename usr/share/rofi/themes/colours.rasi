@@ -28,7 +28,7 @@
 }
 #window.mainbox.listview {
     border: 0px 0px 0px ;
-    padding: 20px 150px 2px ;                                                
+    padding: 20px 150px 2px ;
 }
 #window.mainbox.listview.element {
     border: 0px 0px 1px ;
@@ -85,14 +85,14 @@
     background: #1793D1ED;
 }
 #window.mainbox.inputbar {
-    padding: 0px 0px 1px ;  
+    padding: 0px 0px 1px ;
     border: 0px 0px 1px ;
     foreground: #484852FF;
     background: #72CCDFED;
     border-radius: 0;
 }
 #window.mainbox.inputbar.box {
-    padding: 10px 250px 10px ;  
+    padding: 10px 250px 10px ;
     border: 0px 0px 1px ;
     foreground: #484852FF;
     background: #72CCDFED;

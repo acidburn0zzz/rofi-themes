@@ -7,28 +7,29 @@ declare -A COMMANDS
 # List of defined 'Launchers'
 
 # launch programs
-COMMANDS["apps"]="rofi-apps"
-LABELS["apps"]=""
+COMMANDS["App-Launcher"]="rofi-apps"
+LABELS["App-Launcher"]=""
 
 # open bookmarks
-COMMANDS["bookmarks"]="rofi-web-bookmarks"
-LABELS["bookmarks"]=""
-
-# search local files
-COMMANDS["locate"]="rofi-locate"
-LABELS["locate"]=""
+# Must be user configured
+#COMMANDS["Web-Bookmarks"]="rofi-web-bookmarks"
+#LABELS["Web-Bookmarks"]=""
 
 # open custom web searches
-COMMANDS["websearch"]="rofi-web-search"
-LABELS["websearch"]=""
+COMMANDS["Web-Search"]="rofi-web-search"
+LABELS["Web-Search"]=""
+
+# search local files
+COMMANDS["File-Search"]="rofi-locate"
+LABELS["File-Search"]=""
 
 # show clipboard history
-COMMANDS["clipboard"]="rofi-clipboard"
-LABELS["clipboard"]=""
+COMMANDS["Clipboard"]="rofi-clipboard"
+LABELS["Clipboard"]=""
 
 # show calculator
-COMMANDS["calculator"]="rofi-calculator"
-LABELS["calculator"]=""
+COMMANDS["Calculator"]="rofi-calculator"
+LABELS["Calculator"]=""
 
 ################################################################################
 # do not edit below
@@ -51,7 +52,7 @@ function print_menu()
 function start()
 {
     # print_menu | rofi -dmenu -p "?=>"
-    print_menu | sort | rofi -lines 9 -font "Hurmit Nerd Font 12" -dmenu -mesg ">>> Pick your rofi launcher " -i -p "rofi-launchers: "
+    print_menu | sort | rofi -lines 9 -font "Iceberg 13" -dmenu -mesg " Available " -i -p "Launch: "
 
 }
 

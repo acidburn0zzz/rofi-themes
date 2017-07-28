@@ -10,26 +10,25 @@
 #window {
     border:     0;
     foreground: #1D1D1DFF;
-    padding:    50px 50px 50px;
+    padding:    20px 150px 20px;
     background: #F6F6F6FF;
     border-radius: 4px;
 }
 #window.mainbox {
     border:  0;
-    padding: 10;
+    padding: 6;
 }
 #window.mainbox.message.box {
     border: 0px 0px 0px ;
-    padding: 0px 0px 0px ;
+    padding: 30px 100px 2px ;
 }
 #window.mainbox.message.normal {
     foreground: #484852FF;
     background: #00000000;
 }
 #window.mainbox.listview {
-    fixed-height: 1;
     border: 0px 0px 0px ;
-    padding: 4px 150px 4px ;                                                
+    padding: 10px 100px 2px ;
 }
 #window.mainbox.listview.element {
     border: 0px 0px 1px ;
@@ -37,15 +36,15 @@
 }
 #window.mainbox.listview.element.normal.normal {
     foreground: #484852FF;
-    background: #72CCDFED;
+    background: #DBDBDBED;
 }
 #window.mainbox.listview.element.normal.urgent {
-    foreground: #484852FF;
-    background: #72CCDFED;
+    foreground: #E64141FF;
+    background: #DBDBDBED;
 }
 #window.mainbox.listview.element.normal.active {
-    foreground: #484852FF;
-    background: #72CCDFED;
+    foreground: #1793D1FF;
+    background: #DBDBDBED;
 }
 #window.mainbox.listview.element.selected.normal {
     foreground: #484852FF;
@@ -61,24 +60,24 @@
 }
 #window.mainbox.listview.element.alternate.normal {
     foreground: #484852FF;
-    background: #A3574AED;
+    background: #DBDBDBED;
 }
 #window.mainbox.listview.element.alternate.urgent {
-    foreground: #484852FF;
-    background: #A3574AED;
+    foreground: #E64141FF;
+    background: #DBDBDBED;
 }
 #window.mainbox.listview.element.alternate.active {
-    foreground: #484852FF;
-    background: #A3574AED;
+    foreground: #1793D1FF;
+    background: #DBDBDBED;
 }
 #window.mainbox.sidebar.box {
     border: 0px 0px 0px ;
-    padding: 0;
+    padding: 10;
 }
 #window.mainbox.sidebar.button normal{
     border: 0px 0px 1px ;
     foreground: #484852FF;
-    background: #72CCDFED;
+    background: #DBDBDBED;
 }
 #window.mainbox.sidebar.button selected{
     border: 0px 0px 1px ;
@@ -86,16 +85,19 @@
     background: #1793D1ED;
 }
 #window.mainbox.inputbar {
-    spacing: 0;
+    padding: 0px 0px 0px ;
+    border: 0px 0px 0px ;
+    border-radius: 0;
 }
 #window.mainbox.inputbar.box {
-    padding: 0px 110px 0px ;  
-    border: 1px 0px 1px ;
+    padding: 15px 190px 5px ;
+    border: 0px 0px 1px ;
     foreground: #484852FF;
-    background: #72CCDFED;
+    background: #DBDBDBED;
     spacing: 0;
+    border-radius: 4;
 }
 #window.mainbox.inputbar.normal {
     foreground: #484852FF;
-    background: #72CCDF00;
+    background: #00000000;
 }

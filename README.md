@@ -1,6 +1,9 @@
 # rofi-themes
 Themes & Scripts for the Rofi Launcher
 
+  For my themes to work, as of sept 15, 2017 you need rofi from github
+  rofi -v                                                                                            Version: 1.3.1 - 1.3.1-790-ge9c31ed7 (makepkg)
+
 
 # Installation
     - cd into the folder containing the .rasi theme files
